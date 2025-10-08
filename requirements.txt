@@ -1,0 +1,26 @@
+# FastAPI ve web server bağımlılıkları
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# PyTorch ve computer vision
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Data processing
+matplotlib>=3.7.0
+
+# HTTP client (test için)
+requests>=2.31.0
+
+# Optional: GPU support için CUDA version
+# torch==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# torchvision==0.15.0+cu118 --index-url https://download.pytorch.org/whl/cu118
