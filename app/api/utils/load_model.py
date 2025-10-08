@@ -66,11 +66,7 @@ def initialize_model():
     global model, device
 
     # Model dosyasının yolu - scripts klasöründeki model
-    model_path = os.path.join(
-        os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))),
-        "scripts",
-        "fasterrcnn_best.pth"
-    )
+    model_path = r"C:\Users\renan\OneDrive\Masaüstü\intern_ai_2\checkpoints\best.pth"
 
     print(f"Looking for model at: {model_path}")
 
